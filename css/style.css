@@ -1,0 +1,280 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+* {
+    font-family: Poppins;
+}
+
+.hero_section {
+    background-color: #F0FFF0;
+    min-height: 100vh;
+
+}
+
+/* header part css */
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9);
+    width: 60%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link.btn {
+    font-family: 'Roboto';
+    background: #21B573;
+    border-radius: 50px;
+    padding: 10px 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    box-shadow: none;
+}
+
+
+.singin {
+    margin-left: 20px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+
+/* Banner part css */
+
+.banner {
+    margin-top: 5%;
+}
+
+.banner_content {
+    margin-top: 40px;
+}
+
+.banner_content h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FD511A;
+}
+
+.banner_content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner_content h1 span {
+
+    color: #21B573;
+}
+
+.banner_content a {
+    background-color: #21B573;
+    border-radius: 50px;
+    color: #ffffff;
+    margin-top: 35px;
+    border: 2px solid #000000;
+    padding: 12px 36px;
+    box-shadow: none;
+}
+
+.banner_content a:hover {
+    color: #ffffff;
+}
+
+.banner_content a:focus {
+    box-shadow: none;
+}
+
+/* feture part css */
+
+.feture_content {
+
+    background-color: #F8FFFB;
+    text-align: center;
+    padding: 35px 0;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: .4s all ease-in-out;
+}
+
+.feture_content:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.feture_content img {
+
+    width: 80px;
+    height: 90px;
+}
+
+.feture_content h4 {
+    font-size: 24px;
+    line-height: 17px;
+    margin-top: 35px;
+    color: #413960;
+}
+
+.feture_content p {
+
+    color: #585859;
+    margin-bottom: 0;
+}
+
+/* course part css */
+
+.course h1 {
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #413960;
+    margin-bottom: 35px;
+}
+
+.course_item {
+
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.course_item h4 {
+    font-size: 24px;
+    line-height: 17px;
+    margin-top: 35px;
+    color: #413960;
+}
+
+.course_item p {
+    color: #585859;
+    margin-bottom: 0;
+}
+
+.course_item a {
+    background-color: #21B573;
+    border-radius: 50px;
+    color: #ffffff;
+    margin-top: 35px;
+    padding: 8px 28px;
+    box-shadow: none;
+    transition: .5s all ease-in-out;
+}
+.course_item a:hover{
+    color: #ffffff;
+}
+
+.seat {
+    margin: 30px 0 10px 0;
+}
+
+.seat ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.seat ul li i {
+    margin-right: 5px;
+    color: #585859;
+}
+
+/* Testimonial part CSS */
+
+.testimonial_part h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #413960;
+    margin-bottom: 35px;
+}
+
+.client {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.testimonial_content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+}
+
+/* Footer part css */
+footer {
+    background-color: #282531;
+}
+
+.footer_content p {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+/* Course */
+.Course {
+
+color: #ffffff;
+
+margin: auto;
+
+margin-bottom: 15px;
+}
+
+.Course h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.Course ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Course ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.Course ul li a:hover {
+    color: #ffffff;
+}
+
+.copy_right {
+
+color: #CDCDCD;
+text-align: center;
+margin-top: 30px;
+}
+
+.copy_right p {
+
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 0;
+}
